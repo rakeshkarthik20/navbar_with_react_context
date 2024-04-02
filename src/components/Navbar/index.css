@@ -1,0 +1,59 @@
+/* Write your CSS here */
+.navbar-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: 'Roboto';
+  height: 80px;
+}
+.dark-background {
+  background-color: #333333;
+  background-size: cover;
+}
+.theme-button {
+  background-color: transparent;
+  border: 0px;
+  cursor: pointer;
+}
+.component-container {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+.link-item {
+  text-decoration: none;
+}
+.website-logo {
+  width: 55px;
+}
+
+.component-heading {
+  font-size: 20px;
+  margin-left: 25px;
+  color: #171f46;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 768px) {
+  .component-container {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-right: 19px;
+  }
+  .component-heading {
+    font-size: 18px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 0px;
+    color: #171f46;
+    font-weight: 700;
+  }
+}
+.dark-text {
+  color: #ffffff;
+}
+
+.theme-image {
+  width: 45px;
+}

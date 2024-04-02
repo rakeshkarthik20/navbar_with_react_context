@@ -1,0 +1,33 @@
+/* Write your CSS here */
+.not-found-image {
+  width: 380px;
+}
+.not-found-heading {
+  font-weight: 400;
+  color: #64748b;
+  font-size: 40px;
+}
+.not-found-description {
+  font-weight: 400;
+  font-size: 20px;
+  color: #64748b;
+}
+.dark-text {
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .not-found-image {
+    width: 300px;
+  }
+  .not-found-heading {
+    font-weight: 400;
+    color: #64748b;
+    font-size: 35px;
+  }
+  .not-found-description {
+    font-weight: 400;
+    font-size: 15px;
+    color: #64748b;
+  }
+}
